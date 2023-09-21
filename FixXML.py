@@ -1,3 +1,4 @@
+# Removes unsupported xml tags for old flows, helpful for people using devops center which for screenflows insists on using the latest api version instead of the one the actually is
 def modify_xml_file(filename):
     # Read the file contents into a list of lines
     with open(filename, 'r') as f:
